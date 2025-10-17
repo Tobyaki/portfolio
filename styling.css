@@ -53,12 +53,6 @@ body {
   -webkit-background-clip: text;
 }
 
-/* .navbar a:hover {
-  background: linear-gradient(45deg, #f06, #3cf);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-} */
-
 #home {
   width: 100%;
   height: 100vh;
@@ -219,7 +213,9 @@ figcaption a:hover {
   animation-delay: 0.7s;
 }
 
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -230,11 +226,12 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-label[for=country], [for=request] {
+label[for="country"],
+[for="request"] {
   color: black;
 }
 
-input[type=submit] {
+input[type="submit"] {
   background-color: rgb(77, 10, 68);
   color: white;
   padding: 12px 20px;
@@ -243,7 +240,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: rgb(180, 12, 158);
   transition: 0.2s ease-in-out;
 }
@@ -272,7 +269,7 @@ input[type=submit]:hover {
   width: 40px;
   height: 40px;
   background: transparent;
-  background: linear-gradient(45deg, #f06, #3cf);;
+  background: linear-gradient(45deg, #f06, #3cf);
   border-radius: 50%;
   margin: 20px 0;
   z-index: 1;
@@ -282,7 +279,7 @@ input[type=submit]:hover {
   background: #0c1022;
   background: transparent;
   border: 1px solid palevioletred;
-  transition: .5s ease-out
+  transition: 0.5s ease-out;
 }
 
 .home-sci a:nth-child(1) {
