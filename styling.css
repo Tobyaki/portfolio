@@ -390,6 +390,10 @@ input[type="submit"]:hover {
 
   #home {
     flex-wrap: wrap;
+    margin-bottom: 200px;
+  }
+
+  .home-img {
     max-width: 100%;
   }
 
