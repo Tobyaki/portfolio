@@ -393,6 +393,10 @@ input[type="submit"]:hover {
     max-width: 100%;
   }
 
+  #portfolio {
+    margin-top: 120px;
+  }
+
   .projects {
     flex-wrap: wrap;
     width: 75%;
