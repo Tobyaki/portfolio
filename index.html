@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styling.css" />
+    <title>Portfolio website</title>
+  </head>
+  <body>
+    <header class="my-header">
+      <a href="#" class="logo">Toby.</a>
+
+      <nav class="navbar">
+        <a href="#home" style="--i: 1">Home</a>
+        <a href="#portfolio" style="--i: 2">Portfolio</a>
+        <a href="#contact" style="--i: 3">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <div class="home-content">
+          <h1>Hi, I'm Tobechukwu Aki</h1>
+          <h2>Fullstack Developer</h2>
+          <p>
+            I'm currently learning frontend web development using HTML, CSS, and
+            JavaScript, and I'm learning backend web development using C#. I'm
+            also into game development with python and any other programming
+            language I'm willing to learn!
+          </p>
+        </div>
+
+        <div class="home-img">
+          <div class="glowing-circle">
+            <span></span>
+            <span></span>
+            <div class="image">
+              <img src="./Images/me.png" alt="A picture of myself" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <h1>My Projects</h1>
+
+        <div class="projects">
+          <div>
+            <figure>
+              <img src="./Images/terroratnsk.png" alt="Terror at NSK" />
+              <figcaption>
+                <a href="https://studioultra.itch.io/terroratnsk"
+                  >Terror at NSK</a
+                >
+              </figcaption>
+            </figure>
+            <p>A horror visual novel set in halloween.</p>
+          </div>
+
+          <div>
+            <figure>
+              <img src="./Images/dear abby.png" alt="Dear Abby" />
+              <figcaption>
+                <a href="https://studioultra.itch.io/dear-abby">Dear Abby</a>
+              </figcaption>
+            </figure>
+            <p>
+              A horror visual novel about a girl named Abigail as she navigates
+              her relationship with her cousins.
+            </p>
+          </div>
+
+          <div>
+            <figure>
+              <img src="./Images/two of us.png" alt="Two of us" />
+              <figcaption>
+                <a href="https://studioultra.itch.io/two-of-us">Two of us</a>
+              </figcaption>
+            </figure>
+            <p>A visual novel about two lovers.</p>
+          </div>
+
+          <div>
+            <figure>
+              <img src="./Images/forbidden note.jpg" alt="The forbidden note" />
+              <figcaption>
+                <a href="https://studioultra.itch.io/theforgottennote"
+                  >The Forbidden note</a
+                >
+              </figcaption>
+              <p>A visual novel about a girl and her estranged friend.</p>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h1>Hire me now!</h1>
+
+        <div class="form-container">
+          <form action="https://formsubmit.co/tobyvaki@gmail.com" method="post">
+            <input
+              type="text"
+              name="firstname"
+              placeholder="First Name"
+              required
+            />
+            <br />
+
+            <input
+              type="text"
+              name="lastname"
+              placeholder="Last Name"
+              required
+            />
+            <br />
+
+            <label for="country">Country</label><br />
+            <select name="country" required>
+              <option value="Nigeria">Nigeria</option>
+              <option value="US">United States</option>
+              <option value="Russia">Russia</option>
+              <option value="China">China</option>
+              <option value="UK">United Kingdom</option>
+            </select>
+            <br />
+
+            <label for="request">Project description</label><br />
+            <textarea
+              name="description"
+              id="description"
+              cols="30"
+              rows="8"
+              placeholder="Give me a description of what you want..."
+            ></textarea>
+            <br />
+
+            <input type="submit" value="Submit" required />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="home-sci">
+        <a href="https://www.instagram.com/toby_aki2"
+          ><img src="./Images/instagram.png" alt="Instagram icon"
+        /></a>
+        <a href="https://www.linkedin.com/in/toby-aki"
+          ><img src="./Images/linkedin.png" alt="linkedin icon"
+        /></a>
+        <a href="https://x.com/AkiToby1"
+          ><img src="./Images/x.png" alt="X icon"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
